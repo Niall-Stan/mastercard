@@ -1,0 +1,7 @@
+web1 ansible_ssh_host=172.31.14.30
+
+[webserver]
+web1
+
+[datacenter:children]
+webserver
